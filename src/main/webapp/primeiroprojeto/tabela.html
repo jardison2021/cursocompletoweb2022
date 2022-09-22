@@ -6,7 +6,8 @@
 </head>
 <body>
 	<h2>Produtos</h2>
-	<table border="2">
+	<!-- formatação da tabela -->
+	<table border="2" width="50%">
 		<tr>
 			<th>Código</th>
 			<th>Produto</th>
@@ -21,6 +22,20 @@
 			<td>002</td>
 			<td>Tablet</td>
 			<td>R$ 999,99</td>
+		</tr>
+		<tr>
+			<!-- mesclagem de linha -->
+			<td rowspan="2">Desconto</td>
+			<!-- Mesclagem de colulnas-->
+			<td colspan="2">cumpo1 -R$ 10,00</td>
+		</tr>
+		<tr>
+			<!-- Mesclagem de colunas -->
+			<td colspan="2">cumpo2 -R$ 10,00</td>
+		</tr>
+		<tr>
+			<td>Total</td>
+			<td colspan="2">R$ 3.478,98</td>
 		</tr>
 	</table>
 </body>
